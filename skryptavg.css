@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .subheading {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .features {
+    margin-bottom: 40px;
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .features ul {
+    list-style-type: none;
+  }
+  
+  .features li {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .pricing h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+    font-size: 18px;
+  }
+  
+  td {
+    font-size: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  td {
+    font-weight: bold;
+  }
+  
+  td:nth-child(2), td:nth-child(3), td:nth-child(4) {
+    color: #4caf50; /* Green for availability */
+  }
+  
+  td:nth-child(2) {
+    color: #ff5722; /* Red for "✘" */
+  }
+  
+  td:nth-child(3) {
+    color: #2196f3; /* Blue for premium plans */
+  }
+  
+  
